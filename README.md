@@ -1,0 +1,3 @@
+# ethn.sh
+
+my site
