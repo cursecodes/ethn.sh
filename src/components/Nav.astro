@@ -1,0 +1,19 @@
+---
+import { Tabs } from "./Tabs";
+import Logo from "./Logo.astro";
+---
+
+<nav class="space-y-4 mb-6">
+  <div class="flex flex-col space-y-8">
+    <Logo size={28} />
+
+    <span class="font-medium text-3xl text-neutral-200">Ethan</span>
+  </div>
+  <p class="text-neutral-400 font-serif italic md:max-w-2xl">
+    Canadian high school student crafting masterpieces with the most
+    bleeding-edge tools. I am a full-stack software engineer with a soft spot
+    for design & the frontend.
+  </p>
+  <Tabs client:load />
+  <div class="border-b border-neutral-700"></div>
+</nav>

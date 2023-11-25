@@ -1,0 +1,9 @@
+/* * {
+  cursor: none;
+} */
+
+::selection {
+  background: #c6c6c6;
+
+  color: #000;
+}

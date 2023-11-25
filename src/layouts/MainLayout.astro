@@ -1,0 +1,25 @@
+---
+import "@fontsource-variable/inter";
+import "../styles/globals.css";
+import MainHead from "./MainHead.astro";
+import Nav from "../components/Nav.astro";
+import { Cursor } from "../components/CustomCursor";
+
+const {
+  title = "Ethan",
+  description = "Full-stack design/software engineer crafting unique web experiences.",
+} = Astro.props;
+---
+
+<html lang="en">
+  <MainHead {title} {description} />
+  <body
+    class="bg-neutral-800 md:max-w-3xl mx-auto px-5 md:px-0 pt-20 text-white"
+  >
+    <Nav />
+    <main>
+      <slot />
+    </main>
+    <!-- <Cursor client:load /> -->
+  </body>
+</html>
