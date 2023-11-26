@@ -2,7 +2,7 @@ const links = [
   {
     name: "read.cv",
     icon: "https://cdn.ethn.sh/readcv.svg",
-    href: "https://read.cv",
+    href: "https://read.cv/ethndotsh",
   },
   {
     name: "GitHub",
