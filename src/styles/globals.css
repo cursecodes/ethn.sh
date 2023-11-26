@@ -1,6 +1,6 @@
-/* * {
-  cursor: none;
-} */
+* {
+  cursor: none !important;
+}
 
 ::selection {
   background: #c6c6c6;

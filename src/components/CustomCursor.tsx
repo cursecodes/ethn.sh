@@ -32,9 +32,7 @@ export function Cursor() {
 
   return (
     <motion.div
-      className={`${
-        isHoveringButton ? "opacity-0" : ""
-      } fixed left-0 top-0 w-7 h-7 rounded-full bg-white mix-blend-difference z-[999] pointer-events-none`}
+      className={`fixed left-0 top-0 w-7 h-7 rounded-full bg-white mix-blend-difference z-[999] pointer-events-none`}
       style={{
         translateX: cursorX,
         translateY: cursorY,

@@ -18,6 +18,10 @@ export default function TabManager() {
     case "links":
       return <Links />;
     default:
-      return <div>Working on this...</div>;
+      return (
+        <div className="text-sm italic opacity-60">
+          Welcome to the something new...
+        </div>
+      );
   }
 }
